@@ -1,0 +1,49 @@
+{
+    "validation_status": "PASSED",
+    "input_directory": "/home/kasm-user/Downloads/MLOps/data/processed",
+    "total_checks": 18,
+    "passed_checks": 18,
+    "failed_checks": 0,
+    "training_shape": [
+        24,
+        12
+    ],
+    "testing_shape": [
+        6,
+        12
+    ],
+    "processed_features": [
+        "numerical__age",
+        "numerical__monthly_charges",
+        "numerical__tenure_months",
+        "numerical__support_calls",
+        "categorical__contract_type_Month-to-month",
+        "categorical__contract_type_One year",
+        "categorical__contract_type_Two year",
+        "categorical__internet_service_DSL",
+        "categorical__internet_service_Fiber",
+        "categorical__payment_method_Bank transfer",
+        "categorical__payment_method_Credit card",
+        "categorical__payment_method_Electronic check"
+    ],
+    "checks": {
+        "train_rows_match": true,
+        "test_rows_match": true,
+        "train_test_columns_match": true,
+        "no_missing_x_train": true,
+        "no_missing_x_test": true,
+        "no_missing_y_train": true,
+        "no_missing_y_test": true,
+        "target_column_exists": true,
+        "valid_y_train_values": true,
+        "valid_y_test_values": true,
+        "all_train_features_numeric": true,
+        "all_test_features_numeric": true,
+        "no_duplicate_train_columns": true,
+        "no_duplicate_test_columns": true,
+        "customer_id_removed": true,
+        "raw_categories_encoded": true,
+        "train_data_not_empty": true,
+        "test_data_not_empty": true
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "selection_metric": "f1_score",
+    "tie_breaker_1": "recall",
+    "tie_breaker_2": "testing_accuracy",
+    "test_rows": 6,
+    "champion_model": "LogisticRegression",
+    "champion_model_path": "/home/kasm-user/Downloads/MLOps/models/champion_model.joblib",
+    "champion_metrics": {
+        "testing_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "all_models": [
+        {
+            "model_name": "LogisticRegression",
+            "model_role": "baseline",
+            "model_path": "/home/kasm-user/Downloads/MLOps/models/logistic_regression.joblib",
+            "testing_accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "selection_status": "champion"
+        },
+        {
+            "model_name": "RandomForestClassifier",
+            "model_role": "challenger",
+            "model_path": "/home/kasm-user/Downloads/MLOps/models/random_forest.joblib",
+            "testing_accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "selection_status": "not_selected"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "input_file": "customer_churn_cleaned.csv",
+    "validation_status": "PASSED",
+    "passed_checks": 10,
+    "failed_checks": 0,
+    "total_checks": 10,
+    "checks": {
+        "required_columns_present": true,
+        "no_missing_values": true,
+        "no_duplicate_rows": true,
+        "valid_target_values": true,
+        "valid_age_range": true,
+        "valid_monthly_charges": true,
+        "valid_tenure": true,
+        "valid_support_calls": true,
+        "numeric_columns_valid": true,
+        "categorical_columns_valid": true
+    }
+}

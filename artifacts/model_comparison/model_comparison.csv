@@ -1,0 +1,3 @@
+model_name,model_role,model_path,testing_accuracy,precision,recall,f1_score,selection_status
+LogisticRegression,baseline,/home/kasm-user/Downloads/MLOps/models/logistic_regression.joblib,1.0,1.0,1.0,1.0,champion
+RandomForestClassifier,challenger,/home/kasm-user/Downloads/MLOps/models/random_forest.joblib,1.0,1.0,1.0,1.0,not_selected
