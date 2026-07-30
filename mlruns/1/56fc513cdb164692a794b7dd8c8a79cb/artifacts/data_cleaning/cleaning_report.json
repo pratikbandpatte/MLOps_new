@@ -1,0 +1,21 @@
+{
+    "input_file": "customer_churn.csv",
+    "output_file": "customer_churn_cleaned.csv",
+    "rows_before": 30,
+    "rows_after": 30,
+    "removed_rows": 0,
+    "missing_before": 0,
+    "missing_after": 0,
+    "duplicates_before": 0,
+    "duplicates_after": 0,
+    "cleaning_steps": [
+        "Standardized column names",
+        "Removed duplicate rows",
+        "Trimmed categorical values",
+        "Converted numeric columns",
+        "Filled missing numeric values with median",
+        "Filled missing categorical values with mode",
+        "Removed invalid values",
+        "Validated churn values"
+    ]
+}

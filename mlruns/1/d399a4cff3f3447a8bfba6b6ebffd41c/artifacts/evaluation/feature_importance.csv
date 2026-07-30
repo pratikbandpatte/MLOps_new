@@ -1,0 +1,13 @@
+feature,importance
+numerical__monthly_charges,0.23463636363636362
+numerical__age,0.1863157894736842
+categorical__contract_type_Month-to-month,0.16
+numerical__tenure_months,0.145
+numerical__support_calls,0.13
+categorical__payment_method_Electronic check,0.10023129251700681
+categorical__contract_type_One year,0.016213622291021676
+categorical__payment_method_Bank transfer,0.011964785914365748
+categorical__payment_method_Credit card,0.010167557932263815
+categorical__contract_type_Two year,0.005470588235294117
+categorical__internet_service_DSL,0.0
+categorical__internet_service_Fiber,0.0

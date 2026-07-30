@@ -1,0 +1,45 @@
+artifact_path: /home/kasm-user/Downloads/MLOps/mlruns/1/models/m-6969f5a2a3414ed783635a4f59ddebbf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-6969f5a2a3414ed783635a4f59ddebbf
+model_size_bytes: 1734886
+model_uuid: m-6969f5a2a3414ed783635a4f59ddebbf
+prompts: null
+run_id: d399a4cff3f3447a8bfba6b6ebffd41c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "numerical__age", "required": true}, {"type":
+    "double", "name": "numerical__monthly_charges", "required": true}, {"type": "double",
+    "name": "numerical__tenure_months", "required": true}, {"type": "double", "name":
+    "numerical__support_calls", "required": true}, {"type": "double", "name": "categorical__contract_type_Month-to-month",
+    "required": true}, {"type": "double", "name": "categorical__contract_type_One
+    year", "required": true}, {"type": "double", "name": "categorical__contract_type_Two
+    year", "required": true}, {"type": "double", "name": "categorical__internet_service_DSL",
+    "required": true}, {"type": "double", "name": "categorical__internet_service_Fiber",
+    "required": true}, {"type": "double", "name": "categorical__payment_method_Bank
+    transfer", "required": true}, {"type": "double", "name": "categorical__payment_method_Credit
+    card", "required": true}, {"type": "double", "name": "categorical__payment_method_Electronic
+    check", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-30 08:26:12.518870'

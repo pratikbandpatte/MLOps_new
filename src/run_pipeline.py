@@ -46,7 +46,7 @@ PIPELINE_STAGES = [
     },
     {
         "name": "Preprocessing Validation",
-        "module": "src.validate_preprocessing",
+        "module": "src.validation_preprocess",
     },
     {
         "name": "Logistic Regression Training",

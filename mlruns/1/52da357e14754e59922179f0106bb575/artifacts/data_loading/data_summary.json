@@ -1,0 +1,22 @@
+{
+    "rows": 30,
+    "columns": 9,
+    "column_names": [
+        "customer_id",
+        "age",
+        "monthly_charges",
+        "tenure_months",
+        "support_calls",
+        "contract_type",
+        "internet_service",
+        "payment_method",
+        "churn"
+    ],
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "target_column": "churn",
+    "target_distribution": {
+        "0": 18,
+        "1": 12
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "records_received": 2,
+    "records_predicted": 2,
+    "churn_predictions": 1,
+    "no_churn_predictions": 1,
+    "predictions": [
+        {
+            "age": 29,
+            "monthly_charges": 85.5,
+            "tenure_months": 4,
+            "support_calls": 5,
+            "contract_type": "Month-to-month",
+            "internet_service": "Fiber optic",
+            "payment_method": "Electronic check",
+            "churn_prediction": 1,
+            "prediction_label": "Churn",
+            "churn_probability": 0.9138341546243349
+        },
+        {
+            "age": 54,
+            "monthly_charges": 42.0,
+            "tenure_months": 48,
+            "support_calls": 1,
+            "contract_type": "Two year",
+            "internet_service": "DSL",
+            "payment_method": "Credit card",
+            "churn_prediction": 0,
+            "prediction_label": "No Churn",
+            "churn_probability": 0.07317270387868546
+        }
+    ]
+}

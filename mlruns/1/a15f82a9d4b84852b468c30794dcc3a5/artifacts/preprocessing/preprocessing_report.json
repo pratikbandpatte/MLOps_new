@@ -1,0 +1,38 @@
+{
+    "input_file": "customer_churn_cleaned.csv",
+    "target_column": "churn",
+    "dropped_columns": [
+        "customer_id"
+    ],
+    "numerical_columns": [
+        "age",
+        "monthly_charges",
+        "tenure_months",
+        "support_calls"
+    ],
+    "categorical_columns": [
+        "contract_type",
+        "internet_service",
+        "payment_method"
+    ],
+    "train_rows": 24,
+    "test_rows": 6,
+    "original_feature_count": 7,
+    "processed_feature_count": 12,
+    "processed_feature_names": [
+        "numerical__age",
+        "numerical__monthly_charges",
+        "numerical__tenure_months",
+        "numerical__support_calls",
+        "categorical__contract_type_Month-to-month",
+        "categorical__contract_type_One year",
+        "categorical__contract_type_Two year",
+        "categorical__internet_service_DSL",
+        "categorical__internet_service_Fiber",
+        "categorical__payment_method_Bank transfer",
+        "categorical__payment_method_Credit card",
+        "categorical__payment_method_Electronic check"
+    ],
+    "test_size": 0.2,
+    "random_state": 42
+}

@@ -1,0 +1,11 @@
+{
+    "customer_id": "int64",
+    "age": "int64",
+    "monthly_charges": "float64",
+    "tenure_months": "int64",
+    "support_calls": "int64",
+    "contract_type": "object",
+    "internet_service": "object",
+    "payment_method": "object",
+    "churn": "int64"
+}

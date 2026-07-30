@@ -1,0 +1,3 @@
+age,monthly_charges,tenure_months,support_calls,contract_type,internet_service,payment_method,churn_prediction,prediction_label,churn_probability
+29,85.5,4,5,Month-to-month,Fiber optic,Electronic check,1,Churn,0.9138341546243349
+54,42.0,48,1,Two year,DSL,Credit card,0,No Churn,0.07317270387868546
